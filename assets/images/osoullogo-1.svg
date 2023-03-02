@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 496.963 453.438" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clippath0" transform="">
+      <path d="M 0 696.19 L 605.4 696.19 L 605.4 853.227 L 0 853.227 Z" style="fill: none; clip-rule: nonzero;"/>
+    </clipPath>
+    <clipPath id="clippath1" transform="" style="clip-path: url(#clippath0);">
+      <rect x="0" y="696.19" width="605.4" height="157.039" style="clip-rule: nonzero;"/>
+    </clipPath>
+    <clipPath id="clippath2" transform="" style="clip-path: url(#clippath1);">
+      <rect x="0" y="696.19" width="605.4" height="157.039" style="clip-rule: nonzero;"/>
+    </clipPath>
+    <clipPath id="clippath4" transform="" style="clip-path: url(#clippath1);">
+      <rect x="0" y="696.19" width="605.4" height="157.039" style="clip-rule: nonzero;"/>
+    </clipPath>
+    <clipPath id="clippath6" transform="">
+      <path d="M 0 853.228 L 606.619 853.228 L 606.619 0 L 0 0 Z" style="fill: none; clip-rule: nonzero;"/>
+    </clipPath>
+    <clipPath id="clippath7" transform="" style="clip-path: url(#clippath6);">
+      <rect x="112.931" y="188.421" width="380.757" height="352.385" style="clip-rule: nonzero;"/>
+    </clipPath>
+  </defs>
+  <g transform="matrix(1, 0, 0, -1, -97.017205, 723.647667)">
+    <g transform="">
+      <path d="M 0 696.19 L 605.4 696.19 L 605.4 853.227 L 0 853.227 Z" style="fill: none;"/>
+    </g>
+    <g style="clip-path: url(#clippath2);">
+      <g transform="">
+        <path d="M 0 853.229 L 605.4 853.229 L 605.4 696.191 L 0 696.191 Z" style="fill: none;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath4);">
+      <g transform="">
+        <path d="M 0 853.229 L 605.4 853.229 L 605.4 696.191 L 0 696.191 Z" style="fill: none;"/>
+      </g>
+    </g>
+    <g transform="">
+      <path d="M 0 853.228 L 606.619 853.228 L 606.619 0 L 0 0 Z" style="fill: none;"/>
+    </g>
+    <g style="clip-path: url(#clippath7);" transform="matrix(1.247036, 0, 0, 1.247036, -30.934664, 41.516953)">
+      <g transform="translate(217.0205 245.6572)">
+        <path d="M 0 0 C -11.047 -18.693 -31.792 -12.274 -31.792 -12.274 L -48.018 -4.409 C -69.146 5.026 -50.136 28.891 -50.136 28.891 L 15.214 130.519 C 36.42 159.065 55.23 123.21 55.23 123.21 L 66.577 105.12 L 64.743 107.891 C 64.743 107.891 11.042 18.696 0 0 M 270.208 40.785 L 146.732 251.581 C 146.732 251.581 128.651 291.297 103.482 294.445 C 76.897 297.762 66.889 290.4 35.453 249.616 L 15.001 219.728 C 15.001 219.728 1.632 203.605 18.936 191.811 C 18.936 191.811 35.06 181.19 44.888 196.136 C 44.888 196.136 68.823 232.827 72.222 236.227 C 75.621 239.625 89.715 265.736 104.514 240.472 L 223.476 46.735 C 223.476 46.735 241.317 20.397 227.721 5.95 C 214.125 -8.494 197.067 -20.923 177.8 4.239 C 177.8 4.239 95.167 133.406 90.071 141.904 C 84.97 150.402 57.472 191.811 11.042 175.894 C 11.042 175.894 -6.001 171.815 -25.238 145.153 C -38.788 126.366 -92.346 38.847 -95.101 31.374 C -95.101 31.374 -110.046 6.993 -101.396 -13.063 C -94.316 -29.464 -57.635 -53.788 -32.97 -56.313 C -8.458 -58.829 16.142 -48.433 33.984 -19.546 L 51.832 9.351 L 87.687 69.912 L 140.202 -16.992 C 140.202 -16.992 159.398 -48.326 179.372 -54.743 C 201.392 -61.823 231.599 -52.959 247.402 -39.017 C 258.209 -29.47 290.26 -2.053 270.208 40.785" style="fill: rgb(23, 31, 85); fill-opacity: 1;"/>
+      </g>
+    </g>
+  </g>
+</svg>

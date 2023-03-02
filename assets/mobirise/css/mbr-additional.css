@@ -1872,7 +1872,7 @@ hr {
 }
 @media (min-width: 992px) {
   .cid-rR8qj3Lr1I .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4.8rem);
+    max-height: calc(98.5vh - 3.8rem);
   }
 }
 .cid-rR8qj3Lr1I .navbar.collapsed .dropdown-menu {
