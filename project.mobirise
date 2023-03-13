@@ -272,7 +272,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 40,
+    "uniqCompNum": 41,
     "versionPublish": "5.7.8",
     "screenshot": "screenshot.png",
     "global_footer_custom": "",
@@ -1527,12 +1527,12 @@
           "_anchor": "content1-13",
           "_isUserblock": true,
           "_cid": "txOe4Pnyul",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
@@ -1578,6 +1578,110 @@
           "_customHTML": "<section class=\"mbr-section info3 studiom4_info3\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/screen-shot-2022-03-26-at-13.24.35-85x48.png\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ff9136\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/94651406\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type=='color'\" checked>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#ec322d\" condition=\"bg.type=='color' && gradientBg\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#265499\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-fonts-style mbr-section-title mbr-bold mbr-black\" mbr-theme-style=\"display-2\" data-app-selector=\"h2\">رؤيتنا ومهمتنا</h2>\n                <h3 class=\"mbr-section-subtitle mbr-bold mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\">WE ARE DEGITAL &amp; CREATIVE AGENCY\n                </h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">التخصص والإتقان .. التخصص في اي مجال من مجالات او الخدمات مع تنفيذه بجوده عالية هو مايسهم في الإنتاجية الا إيجابية والمساعدة على مواكبة التطور والتقدم المستمر في جميع المجتمعات.ونحن في شركة اصول الاعمال للصيانة والنظافة بالرياض نسعى دائما لان نكون احدى الشركات الفعالة بإيجابية والمساهمة في الرقي والتطور في مجتمعنا&nbsp;</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t1bL6fYYQC",
           "_anchor": "info3-9",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "asocial2",
+          "_sourceTheme": "growthm5",
+          "_customHTML": "<section class=\"social2 growthm5\" group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"SocialLikes,Socicon\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImg\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#626161\">\n        <select title=\"Amount\" name=\"iconsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/growthm5/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#fef9f2\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/growthm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f8f1ec\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}} content-container\">\n                <div class=\"image-wrapper\" mbr-if=\"showImg\">\n                    <img src=\"@ADDONS_PATH@/growthm5/components/_images/features/features9.png\" alt=\"Mobirise Website Builder\">\n                </div>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-0 align-center\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">تواصل معانا</h5>\n                <p class=\"mbr-text mbr-fonts-style mb-0 align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    <a href=\"mailto:info@osoulclean.com\" class=\"text-secondary text-primary\">info@osoulclean.com</a>\n                </p>\n         \n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "overflow": "hidden",
+            ".mbr-section-title": {
+              "color": "#272727"
+            },
+            ".mbr-text": {
+              "color": "#272727",
+              "margin-top": "32px",
+              "@media (max-width: 767px)": {
+                "margin-top": "24px"
+              },
+              "a": {
+                "transition": "all .18s",
+                "text-decoration-line": "underline",
+                "&:hover": {
+                  "text-decoration-color": "transparent !important"
+                }
+              }
+            },
+            ".image-wrapper": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "width": "100px",
+              "height": "140px",
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "margin-bottom": "32px",
+              "img": {
+                "width": "100%",
+                "height": "auto",
+                "object-fit": "contain"
+              }
+            },
+            ".icons-menu": {
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "width": "100%",
+              "justify-content": "center",
+              "align-items": "center",
+              "margin-top": "44px"
+            },
+            ".iconfont-wrapper": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "border-radius": "50%",
+              "padding": "6px",
+              "min-width": "36px",
+              "aspect-ratio": "(1 / 1)",
+              "border": "1px solid @iconsColor",
+              "transition": ".3s all",
+              "margin-left": "7px",
+              "margin-right": "7px",
+              "margin-bottom": "14px",
+              ".mbr-iconfont": {
+                "font-size": "20px",
+                "color": "@iconsColor",
+                "transition": ".3s all"
+              },
+              "&:hover": {
+                "background-color": "@iconsColor",
+                ".mbr-iconfont": {
+                  "color": "#272727"
+                }
+              }
+            }
+          },
+          "_cid": "tyqagPHdJX",
+          "_anchor": "asocial2-14",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
